@@ -1,0 +1,165 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "optimisation_strategy": "Bayesian Optimization with Gaussian Process (gp_minimize)",
+  "search_space": {
+    "learning_rate": [
+      0.02,
+      0.2
+    ],
+    "max_iter": [
+      50,
+      150
+    ],
+    "max_depth": [
+      4,
+      12
+    ],
+    "min_samples_leaf": [
+      10,
+      40
+    ],
+    "l2_regularization": [
+      0.0001,
+      5.0
+    ]
+  },
+  "best_hyperparameters": {
+    "learning_rate": 0.09579382929739053,
+    "max_iter": 95,
+    "max_depth": 4,
+    "min_samples_leaf": 38,
+    "l2_regularization": 0.04434804090684403
+  },
+  "comparison": {
+    "untuned": {
+      "top_1_accuracy": 0.8679,
+      "f1_score": 0.7848,
+      "roc_auc": 0.9971,
+      "log_loss": 0.0216,
+      "inference_time_ms": 0.0006
+    },
+    "tuned": {
+      "top_1_accuracy": 0.8429,
+      "f1_score": 0.7565,
+      "roc_auc": 0.9955,
+      "log_loss": 0.0249,
+      "inference_time_ms": 0.0008
+    },
+    "improvement": {
+      "top_1_acc_delta": "+-2.50%",
+      "log_loss_reduction": "-0.0033"
+    }
+  },
+  "trials": [
+    {
+      "trial": 1,
+      "params": {
+        "learning_rate": 0.1251909636857508,
+        "max_iter": 68,
+        "max_depth": 10,
+        "min_samples_leaf": 28,
+        "l2_regularization": 0.01244384900261657
+      },
+      "cv_roc_auc": 0.9655
+    },
+    {
+      "trial": 2,
+      "params": {
+        "learning_rate": 0.025177054005930958,
+        "max_iter": 96,
+        "max_depth": 7,
+        "min_samples_leaf": 14,
+        "l2_regularization": 0.1144209134586151
+      },
+      "cv_roc_auc": 0.9653
+    },
+    {
+      "trial": 3,
+      "params": {
+        "learning_rate": 0.02277411842751364,
+        "max_iter": 122,
+        "max_depth": 12,
+        "min_samples_leaf": 10,
+        "l2_regularization": 4.595918884980163
+      },
+      "cv_roc_auc": 0.9665
+    },
+    {
+      "trial": 4,
+      "params": {
+        "learning_rate": 0.08289178756026049,
+        "max_iter": 111,
+        "max_depth": 4,
+        "min_samples_leaf": 11,
+        "l2_regularization": 0.029234817534726277
+      },
+      "cv_roc_auc": 0.968
+    },
+    {
+      "trial": 5,
+      "params": {
+        "learning_rate": 0.05022164887854356,
+        "max_iter": 55,
+        "max_depth": 12,
+        "min_samples_leaf": 17,
+        "l2_regularization": 0.0002665366396508016
+      },
+      "cv_roc_auc": 0.9655
+    },
+    {
+      "trial": 6,
+      "params": {
+        "learning_rate": 0.08306460515328777,
+        "max_iter": 88,
+        "max_depth": 12,
+        "min_samples_leaf": 24,
+        "l2_regularization": 1.0985862948198069
+      },
+      "cv_roc_auc": 0.9661
+    },
+    {
+      "trial": 7,
+      "params": {
+        "learning_rate": 0.09579382929739053,
+        "max_iter": 95,
+        "max_depth": 4,
+        "min_samples_leaf": 38,
+        "l2_regularization": 0.04434804090684403
+      },
+      "cv_roc_auc": 0.968
+    },
+    {
+      "trial": 8,
+      "params": {
+        "learning_rate": 0.04857876818821362,
+        "max_iter": 52,
+        "max_depth": 6,
+        "min_samples_leaf": 17,
+        "l2_regularization": 0.162418232501439
+      },
+      "cv_roc_auc": 0.9655
+    },
+    {
+      "trial": 9,
+      "params": {
+        "learning_rate": 0.0814754285447024,
+        "max_iter": 133,
+        "max_depth": 5,
+        "min_samples_leaf": 22,
+        "l2_regularization": 0.000718326536067019
+      },
+      "cv_roc_auc": 0.9661
+    },
+    {
+      "trial": 10,
+      "params": {
+        "learning_rate": 0.11386530295389603,
+        "max_iter": 93,
+        "max_depth": 6,
+        "min_samples_leaf": 27,
+        "l2_regularization": 0.0001403266708434262
+      },
+      "cv_roc_auc": 0.9651
+    }
+  ]
+}
