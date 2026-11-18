@@ -13,7 +13,7 @@ env/
 
 # Dataset - NEVER commit raw dataset
 Student folder/
-data/
+/data/
 *.zip
 
 # Generated models
