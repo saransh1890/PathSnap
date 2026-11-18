@@ -1,0 +1,6 @@
+model,algorithm_family,cv_macro_f1,top_1_accuracy,top_3_accuracy,top_5_accuracy,mrr,roc_auc,pr_auc,log_loss,training_time_s,inference_time_ms
+Logistic Regression,Linear / Probabilistic,0.7183,0.8092,0.9546,0.9683,0.885,0.9899,0.8435,0.032,0.067,0.001
+K-Nearest Neighbours,Instance-based,0.7936,0.98,0.9846,0.9858,0.986,0.9948,0.9862,0.0116,0.044,0.015
+Random Forest,Ensemble (Bagging),0.794,0.945,0.9962,0.9967,0.9736,0.9996,0.9764,0.0377,0.5,0.002
+HistGradientBoosting,Boosting,0.7984,0.8558,0.9825,0.9917,0.9207,0.9969,0.8163,0.0222,0.27,0.001
+Multi-Layer Perceptron (MLP),Neural Network,0.785,0.8483,0.9683,0.9821,0.9112,0.9929,0.8528,0.0198,16.472,0.001

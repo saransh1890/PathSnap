@@ -1,0 +1,72 @@
+[
+  {
+    "model": "Logistic Regression",
+    "algorithm_family": "Linear / Probabilistic",
+    "cv_macro_f1": 0.7183,
+    "top_1_accuracy": 0.8092,
+    "top_3_accuracy": 0.9546,
+    "top_5_accuracy": 0.9683,
+    "mrr": 0.885,
+    "roc_auc": 0.9899,
+    "pr_auc": 0.8435,
+    "log_loss": 0.032,
+    "training_time_s": 0.067,
+    "inference_time_ms": 0.001
+  },
+  {
+    "model": "K-Nearest Neighbours",
+    "algorithm_family": "Instance-based",
+    "cv_macro_f1": 0.7936,
+    "top_1_accuracy": 0.98,
+    "top_3_accuracy": 0.9846,
+    "top_5_accuracy": 0.9858,
+    "mrr": 0.986,
+    "roc_auc": 0.9948,
+    "pr_auc": 0.9862,
+    "log_loss": 0.0116,
+    "training_time_s": 0.044,
+    "inference_time_ms": 0.015
+  },
+  {
+    "model": "Random Forest",
+    "algorithm_family": "Ensemble (Bagging)",
+    "cv_macro_f1": 0.794,
+    "top_1_accuracy": 0.945,
+    "top_3_accuracy": 0.9962,
+    "top_5_accuracy": 0.9967,
+    "mrr": 0.9736,
+    "roc_auc": 0.9996,
+    "pr_auc": 0.9764,
+    "log_loss": 0.0377,
+    "training_time_s": 0.5,
+    "inference_time_ms": 0.002
+  },
+  {
+    "model": "HistGradientBoosting",
+    "algorithm_family": "Boosting",
+    "cv_macro_f1": 0.7984,
+    "top_1_accuracy": 0.8558,
+    "top_3_accuracy": 0.9825,
+    "top_5_accuracy": 0.9917,
+    "mrr": 0.9207,
+    "roc_auc": 0.9969,
+    "pr_auc": 0.8163,
+    "log_loss": 0.0222,
+    "training_time_s": 0.27,
+    "inference_time_ms": 0.001
+  },
+  {
+    "model": "Multi-Layer Perceptron (MLP)",
+    "algorithm_family": "Neural Network",
+    "cv_macro_f1": 0.785,
+    "top_1_accuracy": 0.8483,
+    "top_3_accuracy": 0.9683,
+    "top_5_accuracy": 0.9821,
+    "mrr": 0.9112,
+    "roc_auc": 0.9929,
+    "pr_auc": 0.8528,
+    "log_loss": 0.0198,
+    "training_time_s": 16.472,
+    "inference_time_ms": 0.001
+  }
+]
