@@ -1,0 +1,4 @@
+method,top_1_accuracy,top_3_accuracy,top_5_accuracy,mrr,macro_trip_top_1,std_trip_top_1,precision,recall,f1_score,overall_accuracy,roc_auc,pr_auc
+Geometric Nearest Baseline,0.5796,0.9325,0.9579,0.7632,0.5804,0.1553,0.5796,0.5815,0.5806,0.9868,0.9742,0.4091
+Logistic Regression,0.8071,0.9558,0.9696,0.8848,0.8079,0.163,0.8071,0.8098,0.8084,0.994,0.9922,0.8018
+K-Nearest Neighbours (KNN),0.9788,0.9833,0.9854,0.9851,0.981,0.0801,0.9788,0.982,0.9804,0.9994,0.9945,0.9856

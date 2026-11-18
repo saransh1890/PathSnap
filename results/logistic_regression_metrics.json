@@ -1,0 +1,56 @@
+{
+  "model": "LogisticRegression",
+  "best_C": 0.01,
+  "train_roc_auc": 0.9921936346669369,
+  "train_pr_auc": 0.801828294030681,
+  "train_top_1_acc": 0.8070833333333334,
+  "train_top_3_acc": 0.9558333333333333,
+  "train_top_5_acc": 0.9695833333333334,
+  "coefficients": {
+    "distance_m": 0.3201179916570543,
+    "log_distance_m": 0.7374271329993772,
+    "inv_distance_m": 0.15826260109432075,
+    "midpoint_distance_m": 0.09883641757338821,
+    "log_midpoint_dist": 0.2939312263646302,
+    "emission_prob_proxy": 1.0298292683897017,
+    "heading_diff_rad": -0.30809032966644007,
+    "cos_heading_diff": -0.12747048597552274,
+    "projection_fraction": 0.3109076824979741,
+    "is_endpoint_projection": -0.7909037850746342,
+    "projection_center_dev": -0.15441460556079253,
+    "segment_length_m": -0.0165212508117631,
+    "log_segment_length_m": 0.11351581622224385,
+    "gps_speed_mps": -0.8811720046885851,
+    "speed_alignment_interaction": 1.1163380237956655,
+    "time_gap_s": 0.011709002869883415,
+    "dist_diff_from_min": -2.284084725682966,
+    "dist_ratio_to_min": -2.0379418368340434,
+    "cand_distance_rank": -0.7571457216629328
+  },
+  "cv_results": [
+    {
+      "C": 0.01,
+      "mean_auc": 0.9869225767483882,
+      "mean_ap": 0.7960016189508152,
+      "mean_top1_acc": 0.8070833333333333
+    },
+    {
+      "C": 0.1,
+      "mean_auc": 0.9899355644669665,
+      "mean_ap": 0.799833722826189,
+      "mean_top1_acc": 0.8045833333333334
+    },
+    {
+      "C": 1.0,
+      "mean_auc": 0.991943296838868,
+      "mean_ap": 0.8122529728350619,
+      "mean_top1_acc": 0.805
+    },
+    {
+      "C": 10.0,
+      "mean_auc": 0.9920576810107026,
+      "mean_ap": 0.7978228067309275,
+      "mean_top1_acc": 0.80375
+    }
+  ]
+}

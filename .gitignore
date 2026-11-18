@@ -21,7 +21,7 @@ models/*.pkl
 models/*.h5
 models/*.pt
 
-# Generated results
+# Large intermediate candidate caches (>2MB)
 results/*candidate*.csv
 results/*predictions*.csv
 results/maps/*.html
