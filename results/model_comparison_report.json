@@ -1,0 +1,47 @@
+[
+  {
+    "method": "Geometric Nearest Baseline",
+    "top_1_accuracy": 0.5796,
+    "top_3_accuracy": 0.9325,
+    "top_5_accuracy": 0.9579,
+    "mrr": 0.7632,
+    "macro_trip_top_1": 0.5804,
+    "std_trip_top_1": 0.1553,
+    "precision": 0.5796,
+    "recall": 0.5815,
+    "f1_score": 0.5806,
+    "overall_accuracy": 0.9868,
+    "roc_auc": 0.9742,
+    "pr_auc": 0.4091
+  },
+  {
+    "method": "Logistic Regression",
+    "top_1_accuracy": 0.8071,
+    "top_3_accuracy": 0.9558,
+    "top_5_accuracy": 0.9696,
+    "mrr": 0.8848,
+    "macro_trip_top_1": 0.8079,
+    "std_trip_top_1": 0.163,
+    "precision": 0.8071,
+    "recall": 0.8098,
+    "f1_score": 0.8084,
+    "overall_accuracy": 0.994,
+    "roc_auc": 0.9922,
+    "pr_auc": 0.8018
+  },
+  {
+    "method": "K-Nearest Neighbours (KNN)",
+    "top_1_accuracy": 0.9788,
+    "top_3_accuracy": 0.9833,
+    "top_5_accuracy": 0.9854,
+    "mrr": 0.9851,
+    "macro_trip_top_1": 0.981,
+    "std_trip_top_1": 0.0801,
+    "precision": 0.9788,
+    "recall": 0.982,
+    "f1_score": 0.9804,
+    "overall_accuracy": 0.9994,
+    "roc_auc": 0.9945,
+    "pr_auc": 0.9856
+  }
+]

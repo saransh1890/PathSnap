@@ -1,0 +1,29 @@
+{
+  "model": "KNeighborsClassifier",
+  "best_k_neighbors": 21,
+  "train_roc_auc": 1.0,
+  "train_pr_auc": 1.0,
+  "train_top_1_acc": 0.9966666666666667,
+  "train_top_3_acc": 0.9966666666666667,
+  "train_top_5_acc": 0.9966666666666667,
+  "cv_results": [
+    {
+      "k_neighbors": 5,
+      "mean_auc": 0.9290887285542146,
+      "mean_ap": 0.7848413426813885,
+      "mean_top1_acc": 0.7916666666666667
+    },
+    {
+      "k_neighbors": 11,
+      "mean_auc": 0.9427836917746089,
+      "mean_ap": 0.8146206767548462,
+      "mean_top1_acc": 0.8024999999999999
+    },
+    {
+      "k_neighbors": 21,
+      "mean_auc": 0.950751240696119,
+      "mean_ap": 0.8325743376386304,
+      "mean_top1_acc": 0.80625
+    }
+  ]
+}

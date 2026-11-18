@@ -1,0 +1,9 @@
+{
+  "total_trips": 90,
+  "total_gps_points": 227577,
+  "total_invalid_points": 0,
+  "total_spikes_detected": 1531,
+  "trips_with_large_gaps": 42,
+  "mean_trip_distance_m": 36405.54618472046,
+  "mean_speed_mps": 15.211461343341087
+}
