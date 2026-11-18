@@ -13,16 +13,18 @@ env/
 
 # Dataset - NEVER commit raw dataset
 Student folder/
+data/
 *.zip
 
 # Generated models
 models/*.pkl
-models/*.joblib
 models/*.h5
 models/*.pt
 
 # Generated results
-results/
+results/*candidate*.csv
+results/*predictions*.csv
+results/maps/*.html
 
 # OS
 .DS_Store
